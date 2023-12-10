@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-smartcontract-lottery",
+  "author": "Samir Saade",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomicfoundation/hardhat-verify": "^1.0.4",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@types/sinon-chai": "^3.2.3",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.17.0",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^0.11.34",
+    "hardhat-gas-reporter": "^1.0.9",
+    "hardhat-shorthand": "^1.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-solidity": "^1.1.3",
+    "solhint": "^3.4.1",
+    "solidity-coverage": "^0.8.4"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "dotenv": "^14.2.0"
+  }
+}
