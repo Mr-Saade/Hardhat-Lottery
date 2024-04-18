@@ -27,7 +27,7 @@ const updateContractAddresses = () => {
   );
   if (
     chainId in currentAddresses &&
-    !currentAddresses[chainId] == lottery.address.toString()
+    currentAddresses[chainId] != lottery.address.toString()
   ) {
     currentAddresses[chainId] = lottery.address.toString();
   } else if (!(chainId in currentAddresses)) {
