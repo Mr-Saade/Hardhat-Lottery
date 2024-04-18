@@ -12,7 +12,7 @@ developmentChains.includes(network.name)
         player = accounts[1];
         Lottery = await ethers.getContractAt(
           "Lottery",
-          "0x05a74A9a5009F44dF6A44BD511017Fc928fBAee6", // copy address from deployments
+          "0x24e8D7158dB5C83581285b8492b3D80A289cA3B5", // copy address from deployments
           deployer
         );
       });
