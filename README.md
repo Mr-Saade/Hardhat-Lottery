@@ -37,14 +37,14 @@ Make sure you have these tools installed by running `git --version`, `node --ver
 
 1. Clone the repository:
 
-   ```sh
+   ```bash
    git clone https://github.com/Mr-Saade/Hardhat-Lottery
    cd Hardhat-Lottery
    ```
 
 2. Install dependencies:
 
-```sh
+```bash
 yarn
 ```
 
@@ -54,7 +54,7 @@ yarn
 
 Deploy the Lottery Smart Contract using the following command:
 
-```sh
+```bash
 yarn hardhat deploy
 ```
 
@@ -62,7 +62,7 @@ yarn hardhat deploy
 
 Run tests to ensure the contract's functionality:
 
-```sh
+```bash
 yarn test
 ```
 
@@ -70,7 +70,7 @@ yarn test
 
 Generate a test coverage report:
 
-```sh
+```bash
 yarn coverage
 ```
 
@@ -79,7 +79,7 @@ yarn coverage
 1. Set up environment variables using `.env` file (see [Environment Variables](#environment-variables)).
 2. Deploy the contract to the desired network:
 
-```sh
+```bash
 yarn hardhat deploy --network yourNetwork
 ```
 
@@ -109,7 +109,7 @@ Create a `.env` file with the following environment variables:
 
 To participate in the lottery, run the following command:
 
-```sh
+```bash
 yarn hardhat run scripts/enterLottery.js --network sepolia
 ```
 
@@ -121,7 +121,7 @@ For a USD estimation of gas cost, set up `COINMARKETCAP_API_KEY` environment var
 
 To verify the contract on Etherscan manually, set up `ETHERSCAN_API_KEY` environment variable (see [Environment Variables](#environment-variables)). Use the following command:
 
-```sh
+```bash
 yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
 ```
 
@@ -129,7 +129,7 @@ yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
 
 Check and fix code formatting using the following commands:
 
-```sh
+```bash
 yarn lint
 yarn lint:fix
 ```
