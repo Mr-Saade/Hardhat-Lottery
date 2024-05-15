@@ -115,7 +115,7 @@ yarn hardhat run scripts/enterLottery.js --network sepolia
 
 ## Estimate Gas Cost in USD
 
-For a USD estimation of gas cost, set up `COINMARKETCAP_API_KEY` environment variable (see [Environment Variables](#environment-variables)). Uncomment the line `coinmarketcap: COINMARKETCAP_API_KEY` in `hardhat.config.js`.
+For a USD estimation of gas cost, set up `COINMARKETCAP_API_KEY` environment variable (see [Environment Variables](#environment-variables)). Set `enabled` to `true` in the `gasReporter` section of the `hardhat-config.js` to have a gas-reporter file generated when you run tests on the contracts.
 
 ## Verify on Etherscan
 
